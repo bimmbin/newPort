@@ -6,6 +6,20 @@
     .com_guy {
         transform: translateX(-30%);
     }
+    .container-2 {
+        width: 100%;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 1200px) { 
+    
+    .container {
+        width: 1000px;
+    }
+    .com_guy {
+        transform: translateX(-30%);
+    }
 }
 
 @media (max-width: 1000px) { 
@@ -100,6 +114,16 @@
     .abt-info {
         order: 1;
     }
+    .show-head {
+        flex-flow: column;
+        align-items: baseline;
+    }
+    .show-head p {
+        padding-bottom: 2rem;
+    }
+    .proj-container a {
+        margin: 0 5px 0 0;
+    }
 }
 @media (max-width: 720px) { 
  
@@ -116,6 +140,9 @@
 
     .container {
         width: 90%;
+    }
+    .divs {
+        padding: 1rem;
     }
     .feature {
         transform: translateY(90%);

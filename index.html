@@ -12,14 +12,14 @@
 
     
 </head>
-<body>
+<body class="body-hide">
 
     <!-- .show -->
 
     <div id="proj-name" class="show-proj">
         <img class="btn-x" src="img/x.png" alt="">
         <div class="proj-container">
-            <div class="container">
+            <div class="container-2">
                 <div class="show-head">
                     <p>Vuex with Firebase Auth</p>
                     <div class="proj-links">
@@ -285,9 +285,10 @@
     <script>
 
 
-        // $( ".btn-x" ).click(function() {
+        $( ".btn-x" ).click(function() {
             $('#proj-name').hide();
-        // });
+            $('body').toggleClass('body-hide');
+        });
 
         $('.owl-one').owlCarousel({
             loop: false,
